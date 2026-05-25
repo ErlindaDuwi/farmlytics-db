@@ -14,4 +14,5 @@ def serve_upload(filename):
     return send_from_directory(UPLOAD_FOLDER, filename)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='10.58.180.16', port=5000, debug=True)
+
