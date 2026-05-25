@@ -1,5 +1,6 @@
 from flask import Blueprint
 from backend.controllers.auth_controller import AuthController
+from werkzeug.security import generate_password_hash
 
 auth_bp = Blueprint("auth_bp", __name__)
 controller = AuthController()
